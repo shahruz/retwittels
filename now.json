@@ -1,0 +1,12 @@
+{
+  "name": "retwittels",
+  "version": 1,
+  "alias": "retwittels",
+  "env": {
+    "TZ": "America/Los_Angeles",
+    "TWITTER_CONSUMER_KEY": "@retwittels-twitter-consumer-key",
+    "TWITTER_CONSUMER_SECRET": "@retwittels-twitter-consumer-secret",
+    "TWITTER_ACCESS_TOKEN_KEY": "@retwittels-twitter-access-token-key",
+    "TWITTER_ACCESS_TOKEN_SECRET": "@retwittels-twitter-access-token-secret"
+  }
+}

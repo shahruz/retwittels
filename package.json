@@ -1,0 +1,15 @@
+{
+  "name": "retwittels",
+  "description": "retwittels",
+  "scripts": {
+    "start": "node scripts/worker.js",
+    "download": "node scripts/download.js",
+    "deploy": "now && now alias && now rm retwittels --safe --yes"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.1.0",
+    "node-schedule": "^1.3.1",
+    "twitter": "^1.7.1"
+  }
+}
